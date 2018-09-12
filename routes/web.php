@@ -20,3 +20,6 @@ Route::get('/cats', function () {
 Route::get('/breeds', function () {
     return view('welcome');
 });
+Route::get('/test', function () {
+    return view('welcome');
+});
